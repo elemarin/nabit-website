@@ -8,6 +8,11 @@ $verdeOscuro: #676d23;
 $cafe: #3c3719;
 $blanco: white;
 
+@font-face {
+    font-family: 'Champagne';
+    src: url('../fonts/Champagne & Limousines Bold.ttf') format('truetype');
+}
+
 
 @mixin vertical-align($position: relative) {
   position: $position;
@@ -24,17 +29,24 @@ $blanco: white;
 
 .hero{
     position: relative;
-    background: $azul;
+    background: rgb(114, 163, 53);
     height: 95vh;
 
     div{
         @include vertical-align();
         text-align: center;
 
+        >img{
+            width: 150px;
+            display: block;
+            margin: 0 auto;
+        }
+
         h1{
             margin-top: 0;
             font-size: 120px;
             font-weight: 600;
+            font-family: 'Champagne', fallback, sans-serif !important;
         }
         h2{
             font-weight: 200;
@@ -58,7 +70,11 @@ $blanco: white;
         width: 20%;
         display: inline-block;
         font-size: 24px;
-        font-weight: 200;
+        font-weight: 400;
+
+        &:hover{
+            color: white;
+        }
     }
 }
 
@@ -66,10 +82,47 @@ $blanco: white;
     padding: 50px;
     font-size: 24px;
     text-align: center;
-    
+
     p{
         margin: 0;
         font-weight: 300;
 
+    }
+}
+
+.team-box{
+    text-align: center;
+    padding: 50px;
+    h4{
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
+
+.products{
+    background: $celeste;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact{
+    background: rgb(8, 49, 100);
+    padding: 50px;
+
+    label{
+        color: white;
+        display: block;
+        font-size: 30px;
+    }
+
+    input{
+        padding: 6px 12px;
+        display: block;
+        width: 60%;
+    }
+
+    >textarea{
+        width: 100%;
+        padding: 6px 12px;
     }
 }

@@ -1,9 +1,12 @@
+@font-face {
+  font-family: 'Champagne';
+  src: url("../fonts/Champagne & Limousines Bold.ttf") format("truetype"); }
 * {
   font-family: 'Source Sans Pro', sans-serif; }
 
 .hero {
   position: relative;
-  background: #15282f;
+  background: #72a335;
   height: 95vh; }
   .hero div {
     position: relative;
@@ -12,10 +15,15 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     text-align: center; }
+    .hero div > img {
+      width: 150px;
+      display: block;
+      margin: 0 auto; }
     .hero div h1 {
       margin-top: 0;
       font-size: 120px;
-      font-weight: 600; }
+      font-weight: 600;
+      font-family: 'Champagne', fallback, sans-serif !important; }
     .hero div h2 {
       font-weight: 200; }
   .hero * {
@@ -32,7 +40,9 @@
     width: 20%;
     display: inline-block;
     font-size: 24px;
-    font-weight: 200; }
+    font-weight: 400; }
+    .main-menu a:hover {
+      color: white; }
 
 .texto-solo {
   padding: 50px;
@@ -41,5 +51,32 @@
   .texto-solo p {
     margin: 0;
     font-weight: 300; }
+
+.team-box {
+  text-align: center;
+  padding: 50px; }
+  .team-box h4 {
+    font-weight: bold;
+    font-size: 20px; }
+
+.products {
+  background: #8fcfcf;
+  padding: 50px;
+  text-align: center; }
+
+.contact {
+  background: #083164;
+  padding: 50px; }
+  .contact label {
+    color: white;
+    display: block;
+    font-size: 30px; }
+  .contact input {
+    padding: 6px 12px;
+    display: block;
+    width: 60%; }
+  .contact > textarea {
+    width: 100%;
+    padding: 6px 12px; }
 
 /*# sourceMappingURL=main.css.map */
