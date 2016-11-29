@@ -106,13 +106,14 @@ $blanco: white;
 }
 
 .contact{
-    background: rgb(8, 49, 100);
+    background: rgb(7, 30, 65);
     padding: 50px;
 
     label{
         color: white;
         display: block;
         font-size: 30px;
+        font-weight: 400;
     }
 
     input{
@@ -124,5 +125,21 @@ $blanco: white;
     >textarea{
         width: 100%;
         padding: 6px 12px;
+    }
+}
+
+footer{
+    text-align: center;
+    h2{
+        margin: 25px 0;
+        display: inline-block;
+        margin: 25px 0;
+    }
+
+    img{
+
+        width: 40px;
+        float: right;
+        margin: 25px;
     }
 }
