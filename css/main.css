@@ -64,17 +64,17 @@
       .texto-solo.verde a:hover {
         color: #366100; }
 
+.products {
+  background: #8fcfcf;
+  padding: 50px;
+  text-align: center; }
+
 .team-box {
   text-align: center;
   padding: 50px; }
   .team-box h4 {
     font-weight: bold;
     font-size: 20px; }
-
-.products {
-  background: #8fcfcf;
-  padding: 50px;
-  text-align: center; }
 
 .contact {
   background: #071e41;

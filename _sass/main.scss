@@ -114,6 +114,13 @@ $blanco: white;
     }
 }
 
+
+.products{
+    background: $celeste;
+    padding: 50px;
+    text-align: center;
+}
+
 .team-box{
     text-align: center;
     padding: 50px;
@@ -121,12 +128,6 @@ $blanco: white;
         font-weight: bold;
         font-size: 20px;
     }
-}
-
-.products{
-    background: $celeste;
-    padding: 50px;
-    text-align: center;
 }
 
 .contact{
