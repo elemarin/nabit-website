@@ -68,6 +68,17 @@
   background: #8fcfcf;
   padding: 50px;
   text-align: center; }
+  .products > h4 {
+    padding: 0;
+    text-align: left;
+    font-size: 40px;
+    color: white; }
+
+.team > h4 {
+  padding: 25px 50px;
+  padding-bottom: 0;
+  font-size: 40px;
+  color: #6f6f6f; }
 
 .team-box {
   text-align: center;
@@ -102,5 +113,21 @@ footer {
     width: 40px;
     float: right;
     margin: 25px; }
+
+#camara {
+  text-align: right; }
+  #camara h1 {
+    font-weight: 600;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 0; }
+  #camara h4 {
+    font-size: 25px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 25px; }
+  #camara p {
+    margin-bottom: 0;
+    color: white; }
 
 /*# sourceMappingURL=main.css.map */
