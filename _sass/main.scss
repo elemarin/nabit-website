@@ -79,14 +79,38 @@ $blanco: white;
 }
 
 .texto-solo{
+
+
     padding: 50px;
     font-size: 24px;
     text-align: center;
+    color: white;
+
+    >i{
+        margin: 12px;
+    }
 
     p{
         margin: 0;
         font-weight: 300;
 
+    }
+
+    &.verde{
+        color: #72a335;
+
+        p{
+            margin-bottom: 44px;
+        }
+
+        a{
+            color: #72a335;
+            margin: 12px;
+
+            &:hover{
+                color: #366100;
+            }
+        }
     }
 }
 

@@ -47,10 +47,22 @@
 .texto-solo {
   padding: 50px;
   font-size: 24px;
-  text-align: center; }
+  text-align: center;
+  color: white; }
+  .texto-solo > i {
+    margin: 12px; }
   .texto-solo p {
     margin: 0;
     font-weight: 300; }
+  .texto-solo.verde {
+    color: #72a335; }
+    .texto-solo.verde p {
+      margin-bottom: 44px; }
+    .texto-solo.verde a {
+      color: #72a335;
+      margin: 12px; }
+      .texto-solo.verde a:hover {
+        color: #366100; }
 
 .team-box {
   text-align: center;
